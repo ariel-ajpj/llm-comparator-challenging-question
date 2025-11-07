@@ -1,0 +1,19 @@
+[project]
+name = "LLM Business Pain Point Finder"
+version = "0.1.0"
+description = "Compare LLMs asynchronously"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=2.7.1",
+    "python-dotenv>=1.2.1",
+    "anthropic>=0.53.0",
+    "httpx>=0.27.0",
+    "pydantic>=2.6.0",
+    "rich>=13.7.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+]
